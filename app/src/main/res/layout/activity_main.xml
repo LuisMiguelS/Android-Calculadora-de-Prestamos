@@ -1,0 +1,49 @@
+<LinearLayout
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:background="@color/fondoPrincipal"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/logo_apk"
+        android:layout_marginTop="10dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/nombre_app"
+        android:textColor="@color/texto"
+        android:textSize="25sp"
+        android:layout_marginTop="10dp"
+        android:textStyle="bold"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/bCaluclar"
+        android:id="@+id/bCalcularPrestamo"
+        android:background="@color/boton_claro"
+        android:padding="5dp"
+        android:layout_marginTop="20dp"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/bAcerca"
+        android:id="@+id/bAcercaDe"
+        android:background="@color/boton_claro"
+        android:padding="5dp"
+        android:layout_marginTop="8dp"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/bSalir"
+        android:id="@+id/bSalir"
+        android:background="@color/boton_claro"
+        android:layout_marginTop="8dp"/>
+</LinearLayout>

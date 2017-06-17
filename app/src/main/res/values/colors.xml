@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#2d2d2d</color>
+    <color name="colorPrimaryDark">#2d2d2d</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="fondoPrincipal">#1ea1ab</color>
+    <color name="fondoClaro">#e6e1e4</color>
+    <color name="fondoInput">#fbfbfb</color>
+    <color name="texto">#fff</color>
+    <color name="texto_oscuro">#2d2d2d</color>
+    <color name="fila_pares">#e6e1e4</color>
+    <color name="fila_impares">#b7b4b7</color>
+    <color name="boton_claro">#fafafa</color>
+    <color name="boton_oscuro">#1ea1ab</color>
+</resources>

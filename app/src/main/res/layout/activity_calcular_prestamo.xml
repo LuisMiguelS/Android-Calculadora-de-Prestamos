@@ -1,0 +1,112 @@
+<LinearLayout
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    android:background="@color/fondoClaro"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scrollbars="none">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center_horizontal"
+            android:orientation="vertical">
+
+            <EditText
+                android:layout_width="250dp"
+                android:layout_height="wrap_content"
+                android:hint="@string/hintNombre"
+                android:id="@+id/etNombre"
+                android:layout_marginTop="25dp"
+                android:inputType="text"
+                android:text=""/>
+
+            <EditText
+                android:layout_width="250dp"
+                android:layout_height="wrap_content"
+                android:hint="@string/hintMonto"
+                android:id="@+id/etMonto"
+                android:layout_marginTop="10dp"
+                android:inputType="number"/>
+
+            <EditText
+                android:layout_width="250dp"
+                android:layout_height="wrap_content"
+                android:hint="@string/hinyCuota"
+                android:id="@+id/etCuotas"
+                android:layout_marginTop="10dp"
+                android:inputType="number"/>
+
+            <EditText
+                android:layout_width="250dp"
+                android:layout_height="wrap_content"
+                android:hint="@string/hintTasa"
+                android:id="@+id/etTasa"
+                android:layout_marginTop="10dp"
+                android:inputType="number"
+                android:maxLength="2"/>
+
+            <EditText
+                android:layout_width="250dp"
+                android:layout_height="wrap_content"
+                android:hint="@string/hintFecha"
+                android:id="@+id/etFecha"
+                android:layout_marginTop="10dp"
+                android:inputType="date"
+                android:enabled="false"/>
+
+            <DatePicker
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:visibility="gone"
+                android:id="@+id/datePicker"/>
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Elegir Fecha"
+                android:id="@+id/bFecha"
+                android:layout_marginTop="15dp"
+                android:background="@color/boton_oscuro"
+                android:textColor="@color/texto"
+                android:padding="5dp"/>
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="ok"
+                android:id="@+id/bSeleccionarFecha"
+                android:layout_marginTop="15dp"
+                android:background="@color/boton_oscuro"
+                android:textColor="@color/texto"
+                android:padding="5dp"
+                android:visibility="gone"/>
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Desglozar pagos"
+                android:id="@+id/bCalcular"
+                android:layout_marginTop="15dp"
+                android:background="@color/boton_oscuro"
+                android:textColor="@color/texto"
+                android:padding="5dp" />
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Limpiar"
+                android:id="@+id/bLimpiar"
+                android:layout_marginTop="15dp"
+                android:layout_marginBottom="10dp"
+                android:textColor="@color/texto"
+                android:background="@color/boton_oscuro"
+                android:padding="5dp"/>
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>
