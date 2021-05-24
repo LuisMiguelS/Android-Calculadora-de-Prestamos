@@ -10,4 +10,4 @@ Esta App está creada bajo la plataforma Android Studio en su versión 2.3.1.
 
 Una vez recibidos estos datos, entonces se procede a realizar los cálculos requeridos que al final despleguerán los pagos (tabla de amortización) que se deberán efectuar. (Esta App utiliza el método Alemán para realizar el cálculo de los préstamos).
 
-<b>© Copyright 2017 Luis Miguel Design - All Rights Reserved.</b>
+<b>Copyleft 2017 - All Rights Reserved.</b>
